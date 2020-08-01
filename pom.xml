@@ -188,6 +188,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-release-plugin</artifactId>
+				<version>2.5.3</version>
 				<configuration>
 					<tagNameFormat>v@{project.version}</tagNameFormat>
 					<preparationGoals>package install:install-file</preparationGoals>
@@ -253,7 +254,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-pmd-plugin</artifactId>
-				<version>3.6</version>
+				<version>3.13.0</version>
 				<configuration>
 					<failOnViolation>true</failOnViolation>
 					<excludeRoots>
@@ -323,7 +324,7 @@
 			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>javancss-maven-plugin</artifactId>
-				<version>2.0</version>
+				<version>2.1</version>
 				<configuration>
 					<encoding>${project.build.sourceEncoding}</encoding>
 					<ccnLimit>10</ccnLimit>
