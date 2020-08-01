@@ -21,6 +21,7 @@ package com.mifmif.common.regex.util;
  * @author y.mifrah
  *
  */
+@SuppressWarnings("PMD.UnnecessaryFullyQualifiedName")
 public interface Iterable extends java.lang.Iterable<String>{
 	Iterator iterator();
 }
